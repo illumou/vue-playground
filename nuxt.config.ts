@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     // @ts-ignore
+    routeRules: {
+        '*': { ssr: false},
+    },
     app: {
         head: {
             charset: 'utf-16',
