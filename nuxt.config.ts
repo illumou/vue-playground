@@ -11,6 +11,12 @@ export default defineNuxtConfig({
         head: {
             charset: 'utf-16',
             title: 'Vue-Playground',
+            link: [{
+                rel: 'icon',
+                type: 'image/png',
+                href: '/icons/logo.png',
+                color: '#FFFFFF'
+            }]
         },
     },
     css: ['~/assets/css/main.css'],
