@@ -1,5 +1,6 @@
 <template>
   <div class="w-full h-screen bg-[#111827] flex items-center justify-between flex-col space-y-3">
+    <a class="m-4 text-white underline" target="_blank" href="https://github.com/illumou/vue-dragger"> Github Repo </a>
     <input
         v-model="newTask"
         class="w-96 mt-10 space-y-0 rounded"

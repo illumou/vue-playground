@@ -24,10 +24,10 @@ export default {
   watch: {
     bgColor(newColor, oldColor) {
       if (newColor !== oldColor) {
-        if (newColor !== 'default') {
-          this.color = newColor
-        } else {
+        if (newColor === 'default') {
           this.color = this.defaultColor
+        } else {
+          this.color = newColor
         }
       }
     }

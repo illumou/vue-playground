@@ -1,6 +1,6 @@
 <template>
-  <div class="h-auto w-full">
-    <draggable class="h-full rounded-lg" group="tasks" animation="300"
+  <div class="h-full w-full">
+    <draggable class="min-h-[3rem] rounded-lg" group="tasks" animation="300"
                v-model="lane.tasks"
                tag="ul">
       <template #item="{element}">

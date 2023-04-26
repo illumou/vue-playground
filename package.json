@@ -16,6 +16,6 @@
     "tailwindcss": "^3.3.1"
   },
   "dependencies": {
-    "vuedraggable": "^2.24.3"
+    "vuedraggable": "^4.1.0"
   }
 }
