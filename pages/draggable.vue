@@ -10,7 +10,7 @@
     >
     <div class="mt-20 w-full h-full flex justify-center">
       <div v-for="lane in lanes">
-        <div class="px-3 py-3 mr-4 bg-gray-300 rounded-lg w-96 min-h-[8rem] flex flex-col">
+        <div class="px-3 py-3 m-2 bg-gray-300 rounded-lg w-96 min-h-[8rem] flex flex-col">
           <div class="flex flex-row w-full justify-between border-b-2" :style="{borderColor: lane.border}">
             <p class="text-gray-700">
               {{ lane.name }}
