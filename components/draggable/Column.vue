@@ -4,7 +4,7 @@
                v-model="lane.tasks"
                tag="ul">
       <template #item="{element}">
-        <div class="h-full w-full flex items-start justify-between px-3 py-3 mt-3 bg-white border border-white rounded">
+        <div class="h-full w-full flex items-start justify-between px-3 py-3 mt-3 bg-white border border-white rounded cursor-pointer">
           <div class="w-full h-auto flex flex-row">
             <div class="w-3/4">
               <p class="break-words"> {{element.name}}</p>
